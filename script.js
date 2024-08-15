@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 dateP.classList.add("line-through");
                 descriptionP.classList.add("line-through");
-                parentDiv.classList.add("opacity-50")
-                validateButton.classList.add("hidden")
+                parentDiv.classList.add("opacity-50");
+                validateButton.classList.add("hidden");
             }
         } else {
-            console.error("Veuillez remplir tout les champs.")
+            console.error("Veuillez remplir tout les champs.");
         }
     }
 })
